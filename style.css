@@ -39,4 +39,36 @@ a {
     width: 1px !important;
     overflow: hidden;
   }
-  
+  /* header */
+header{
+background-color: #012D63;
+}
+.header-list{
+  display: flex;
+
+}
+.header-list > .item{
+  color: #C7C7C7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+margin-top: 30px;
+margin-bottom: 33px;
+margin-left: 29px;
+margin-right: 29px;
+}
+.logo{
+  width: 100px;
+height: 60px;
+flex-shrink: 0;
+margin-right: 152px ;
+margin-left:168px;
+margin-top: 17px;
+margin-bottom: 16px;
+}
+
+
+
+
