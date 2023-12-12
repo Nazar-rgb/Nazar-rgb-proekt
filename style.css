@@ -47,6 +47,10 @@ background-color: #012D63;
   display: flex;
 
 }
+.header-links:hover,
+.header-links:focus{
+  color: #FFF;
+}
 .header-list > .item{
   color: #C7C7C7;
   font-size: 24px;
@@ -68,6 +72,76 @@ margin-left:168px;
 margin-top: 17px;
 margin-bottom: 16px;
 }
+/* hero */
+
+
+
+
+
+
+
+
+
+/* <!-- advantages --> */
+
+
+
+
+
+
+/* Reviews */
+
+
+
+
+
+/* order */
+
+
+
+
+
+
+/* footer */
+footer{
+  background-color: #021635;
+}
+.footer-text{
+  color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-links{
+  color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.footre-small-text{
+  color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-fonts{
+  color: #FFF;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 178px;
+height: 86px;
+flex-shrink: 0;
+}
+
+
 
 
 
