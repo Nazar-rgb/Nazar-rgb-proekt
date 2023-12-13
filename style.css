@@ -39,6 +39,15 @@ a {
     width: 1px !important;
     overflow: hidden;
   }
+
+
+  .container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* header */
 header{
 background-color: #012D63;
@@ -72,13 +81,68 @@ margin-left:168px;
 margin-top: 17px;
 margin-bottom: 16px;
 }
+.tumbler-links{
+  color: #DCDCDC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  width: 81px;
+height: 30px;
+flex-shrink: 0;
+}
 /* hero */
+.hero{
+  background-color: #021635;
+  background-image: url(./img/herofon.png);
+}
 
+.hero-fonts_{
+  color: #FFF;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-title{
+  color: #FFF;
+font-family: Playfair Display;
+font-size: 144px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-h2{
+  color: #FFF;
+font-family: Playfair Display;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-text{
+  color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-btn{
+  color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
-
-
-
-
+  border-radius: 10px;
+background: #8E32C6;
+width: 254px;
+height: 67px;
+flex-shrink: 0;
+}
 
 
 
