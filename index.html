@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-<img class="logo" src="./img/nike.png" alt="logo nike">
+    <header class="header">
+<a href=""><img class="logo" src="./img/nike.png" alt="logo nike"></a>
 <ul class="header-list">
     <li class="item"><a class="header-links" href="">Main page</a></li>
     <li class="item"><a class="header-links" href="">Benefits</a></li>
@@ -23,21 +23,23 @@
     <li class="item"><a class="header-links" href="">Reviews</a></li>
     <li class="item"><a class="header-links" href="">Contacts</a></li>
     <li class="item"><a class="header-links" href="">Order</a></li>
-    <li class="item"><a class="header-links" href="">Ua  Eng </a></li>
 </ul>
+<div class="tumbler">
+<a class="timbler-links" href="">Ua Eng</a>
+</div>
     </header>
 <main>
     <!-- hero -->
 <section class="hero">
-<img src="./img/nike.png" alt="logo nike">
+<img class="logo" src="./img/nike.png" alt="logo nike">
 <p class="hero-fonts">C&R</p>
-<h1>ColoRawe</h1>
-<h2>Your dream Nike</h2>
-<p>On this site you can find custom Nike sneakers of your dreams. 
+<h1 class="hero-title">ColoRawe</h1>
+<h2 class="hero-h2">Your dream Nike</h2>
+<p class="hero-text">On this site you can find custom Nike sneakers of your dreams. 
     The original company caт`t create such beautiful 
     sneakers as we do.
     Good luck finding your way in the world of custom sneakers.</p>
-<button type="button">Buy my Nike</button>
+<button class="hero-btn" type="button">Buy my Nike</button>
 </section>
 
 
@@ -46,17 +48,17 @@
 <h2 class="visually-hidden">advantages</h2>
 <ul class="advantages-list">
 <li class="item">
-<h3 class="adventages-type">Premium
+<h3 class="adventages-title">Premium
     Quality</h3>
 <img src="./img/Звёзды 1.png" alt="the star">
 </li>
 <li class="item">
 <img src="./img/Краски 1.png" alt="paints">
-<h3 class="adventages-type">Indelible 
+<h3 class="adventages-title">Indelible 
     paint</h3>
 </li>
 <li class="item">
-<h3 class="adventages-type">Fast 
+<h3 class="adventages-title">Fast 
     shipping</h3>
 <img src="./img/Грузан 1.png" alt="car">
 </li>
@@ -64,15 +66,20 @@
 </section>
 
 <!-- Reviews -->
-<section class="Reviews">
-<h2></h2>
-<ul class="Reviews-list">
+<section class="reviews">
+<h2 class="reaviews-title">Reviews</h2>
+<ul class="reviews-list">
 <li class="item">
 <p class="reviews-text">Sneakers are very 
     comfortable and well 
     painted, nothing has 
     worn off in a year.</p>
 <p class="reviews-text">25.11</p>
+<div class="reviews-box">
+    <img src="" alt="">
+<p class="reviews-name"></p>
+<p class="reviewc-data"></p>
+</div>
 </li>
 <li class="item">
     <p class="reviews-text">I'm very happy with this color scheme.
@@ -93,25 +100,38 @@
 
 
 <!-- Order -->
-<section>
+<section class="order">
+<h2 class="order-title"></h2>
+<form class="order-form">
+<input class="order-input" type="email" placeholder="Write your email">
+<input class="order-input" type="text"  placeholder="Your Country">
+<input class="order-input" type="text"  placeholder="Your City">
+<input class="order-input" type="text"  placeholder="Your Adress">
+<button class="order-btn" type="button">Order my Nike</button>
 
-
+</form>
 </section>
 </main>
 <!-- footer -->
 <footer>
-<ul class="footer-list"></ul>
+<ul class="footer-list">
 <li class="item"><p class="footer-text">Have a question?</p></li>
 <li class="item"><p class="footer-text">Have a proposal for cooperation?</p></li>
 <li class="item"><p class="footer-text">Advertising questions?</p></li>
+</ul>
+<ul class="footer-list">
 <li class="item"><a class="footer-links" href="ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
 <li class="item"><a class="footer-links" href="ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
 <li class="item"><a class="footer-links" href="ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></li>
+</ul>
 <hr>
-<li class="item"><p class="footre-small-text">2022 ColoRawe @All rights reserved</p></li>
-<li class="item"><p class="footre-small-text">United States</p></li>
-<li class="item"><img src="./img/nike.png" alt="logo nike"></li>
-<li class="item"><p class="footer-fonts">C&R</p></li>
+<div class="footer-box">
+<p class="footre-small-text">2022 ColoRawe @All rights reserved</p>
+<p class="footre-small-text">United States</p>
+</div>
+<a href=""><img class="logo" src="./img/nike.png" alt="logo nike">
+<p class="footer-fonts">C&R</p>
+</a>
 </footer>
 </body>
 </html>
