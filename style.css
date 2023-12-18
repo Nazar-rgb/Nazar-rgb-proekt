@@ -1,4 +1,6 @@
+:root{
 
+}
 
 
 body{
@@ -49,12 +51,17 @@ a {
     margin-right: auto;
   }
   /* header */
-header{
+.header{
 background-color: #012D63;
 
-width: 1440px;
-height: 93px;
+padding-top: 30px;
+padding-bottom: 33px;
 flex-shrink: 0;
+}
+.header > .container{
+  display:flex;
+ align-items:center;
+  justify-content:space-between;
 }
 .header-list{
   display: flex;
@@ -76,12 +83,7 @@ margin-bottom: 33px;
 margin-left: 29px;
 margin-right: 29px;
 }
-.logo{
-  width: 100px;
-height: 60px;
-flex-shrink: 0;
 
-}
 .timbler-links{
   color: #DCDCDC;
   font-size: 24px;
@@ -95,13 +97,20 @@ flex-shrink: 0;
 }
 /* hero */
 .hero{
-  background-color: #021635;
-  background-image: url(./img/herofon.png);
-
-  
+  padding-bottom: 183px;
+    padding-top: 91px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-color: #021635;
+    background-image: url(./img/herofon.png);
 }
+.hero-logo{
+  width: 160px;
 
-.hero-fonts_{
+}
+.hero-fonts{
   color: #FFF;
 font-family: PT Serif;
 font-size: 48px;
@@ -131,6 +140,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 550px;
+margin-bottom: 41px;
 }
 .hero-btn{
   color: #FFF;
@@ -150,10 +161,31 @@ flex-shrink: 0;
 
 
 /* <!-- advantages --> */
-
-
-
-
+.advantages{
+background-image: url(./img/fon1.png);
+background-repeat: no-repeat;
+width: 1440px;
+height: 606px;
+flex-shrink: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #021635;
+  
+}
+.advantages-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adventages-title{
+  color: #FFF;
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 /* Reviews */
