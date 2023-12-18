@@ -186,7 +186,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
+.line{
+  width: 1px;
+height: 346px;
+background-color: #FFF;
+}
 
 /* Reviews */
 
