@@ -162,14 +162,14 @@ flex-shrink: 0;
 
 /* <!-- advantages --> */
 .advantages{
+margin-right: auto;
+margin-left: auto;
 background-image: url(./img/fon1.png);
 background-repeat: no-repeat;
 padding-bottom: 104px;
 padding-top: 106px;
-max-width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #021635;
+max-width: 1440px;
+    
   
 }
 .advantages-list{
@@ -185,6 +185,11 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
+
+
+
+
 }
 .line{
   width: 1px;
