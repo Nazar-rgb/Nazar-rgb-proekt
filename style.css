@@ -1,5 +1,5 @@
 :root{
-
+  --basic-color:#FFF
 }
 
 
@@ -198,8 +198,25 @@ background-color: #FFF;
 }
 
 /* Reviews */
-
-
+.reviews{
+  background-image: url(./img/flower.png),url(./img/fon2.png);
+  background-position: bottom left;
+background-repeat: no-repeat;
+margin-right: auto;
+margin-left: auto;
+max-width: 1440px;
+padding-top: 25px;
+padding-bottom: 114px;
+}
+.reaviews-title{
+  color: var(--basic-color);
+text-align: center;
+font-family: Playfair Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
