@@ -164,9 +164,9 @@ flex-shrink: 0;
 .advantages{
 background-image: url(./img/fon1.png);
 background-repeat: no-repeat;
-width: 1440px;
-height: 606px;
-flex-shrink: 0;
+padding-bottom: 104px;
+padding-top: 106px;
+max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
     background-color: #021635;
