@@ -216,9 +216,8 @@ padding-bottom: 114px;
 text-align: center;
 font-family: Playfair Display;
 font-size: 48px;
-
 font-weight: 400;
-
+margin-bottom: 24px
 }
 .reviews-list{
 display: flex;
@@ -244,15 +243,20 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
   width: 255px;
 }
 .reviews-text{
+  padding-top: 49px;
+  padding-left: 18px;
+  padding-right: 9px;
   color: #FFF;
 font-family: Roboto;
 font-size: 24px;
 font-weight: 400;
 }
 .reviews-time{
+  padding-left: 18px;
   color: #D8D8D8;
 font-size: 14px;
 font-weight: 400;
+margin-bottom: 47px;
 }
 .reviews-name{
   color: #FFF;
@@ -267,9 +271,19 @@ font-weight: 400;
 
 
 /* order */
+.order{
+  margin-right: auto;
+margin-left: auto;
+background-image: url(./img/fon3.png);
+background-repeat: no-repeat;
 
+max-width: 1440px;
+}
 
-
+.order-input{
+  display: flex;
+  justify-content: center;
+}
 
 
 
