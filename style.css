@@ -5,6 +5,8 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+line-height: normal;
 }
 
 a {
@@ -74,9 +76,9 @@ flex-shrink: 0;
 .header-links{
   color: #C7C7C7;
   font-size: 24px;
-  font-style: normal;
+
   font-weight: 300;
-  line-height: normal;
+
 
 margin-top: 30px;
 margin-bottom: 33px;
@@ -87,9 +89,8 @@ margin-right: 29px;
 .timbler-links{
   color: #DCDCDC;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
+ 
 
   width: 81px;
 height: 30px;
@@ -114,32 +115,32 @@ flex-shrink: 0;
   color: #FFF;
 font-family: PT Serif;
 font-size: 48px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 }
 .hero-title{
   color: #FFF;
 font-family: Playfair Display;
 font-size: 144px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 }
 .hero-h2{
   color: #FFF;
 font-family: Playfair Display;
 font-size: 72px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 }
 .hero-text{
   color: #FFF;
 font-size: 18px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 width: 550px;
 margin-bottom: 41px;
 }
@@ -147,9 +148,9 @@ margin-bottom: 41px;
   color: #FFF;
 font-family: Roboto;
 font-size: 24px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 
   border-radius: 10px;
 background: #8E32C6;
@@ -176,15 +177,16 @@ max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 5px solid #8E32C6;
 }
 .adventages-title{
   color: #FFF;
 text-align: center;
 font-family: Playfair Display;
 font-size: 36px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 }
 .advantages-img{
   margin-left: 50px;
@@ -214,12 +216,43 @@ padding-bottom: 114px;
 text-align: center;
 font-family: Playfair Display;
 font-size: 48px;
-font-style: normal;
+
 font-weight: 400;
-line-height: normal;
+
 }
 .reviews-list{
+display: flex;
+justify-content: space-between;
+}
 
+.reviews-list > .item:nth-child(1) {
+  border-radius: 15px;
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+  }
+.reviews-list > .item{
+  width: 255px;
+}
+.reviews-text{
+  color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+}
+.reviews-time{
+  color: #D8D8D8;
+font-size: 14px;
+font-weight: 400;
+}
+.reviews-name{
+  color: #FFF;
+font-size: 14px;
+font-weight: 400;
+}
+.reviewc-data{
+  color: #D8D8D8;
+font-size: 12px;
+font-weight: 400;
 }
 
 
