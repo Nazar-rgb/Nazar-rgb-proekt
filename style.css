@@ -390,11 +390,9 @@ height: 86px;
 flex-shrink: 0;
 }
 
-.footer-div{
-  display: flex;
-  justify-content: space-between;
+.footer-line{
+  width: 1110px;
+height: 1px;
 }
-
-
 
 
