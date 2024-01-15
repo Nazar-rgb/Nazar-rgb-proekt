@@ -225,16 +225,19 @@ justify-content: space-between;
 }
 
 .reviews-list > .item:nth-child(1) {
+  padding: 49px 15px 29px 15px;
   border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
   }
 .reviews-list > .item:nth-child(2) {
+  padding: 49px 15px 29px 15px;
 border-radius: 15px;
 background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
 box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
 }
 .reviews-list > .item:nth-child(3) {
+  padding: 49px 15px 29px 15px;
 border-radius: 15px;
 background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
 box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
@@ -248,6 +251,17 @@ box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 font-family: Roboto;
 font-size: 24px;
 font-weight: 400;
+}
+
+.p2{
+ display: block;
+ justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.reviews-box{
+  display: flex;
+  
 }
 .reviews-time{
 
@@ -348,8 +362,10 @@ margin-right: auto;
 /* footer */
 footer{
   background-color: #021635;
+  padding-top: 45px;
+  padding-bottom: 50px;
 }
-.footer-list1{
+.footer-list{
   display: flex;
  flex-direction: column;
 
@@ -360,9 +376,10 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 10px;
+margin-bottom: 10px;
 }
 .footer-links{
+  display: block;
   color: #FFF;
 font-size: 24px;
 font-style: normal;
@@ -370,7 +387,7 @@ font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
 
-
+margin-bottom: 10px;
 }
 .footre-small-text{
   color: #FFF;
@@ -387,20 +404,19 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 
-width: 178px;
-height: 86px;
-flex-shrink: 0;
+margin-top: -20px;
+
 }
 
 .footer-div{
-  padding-top: 40px;
-  padding-bottom: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 
 .footer-box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
