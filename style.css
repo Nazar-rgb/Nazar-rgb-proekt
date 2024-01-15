@@ -266,9 +266,8 @@ font-weight: 400;
 font-size: 12px;
 font-weight: 400;
 }
-.reviews-box{
 
-}
+
 
 /* order */
 .order{
@@ -361,6 +360,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 10px;
 }
 .footer-links{
   color: #FFF;
@@ -369,6 +369,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
+
+
 }
 .footre-small-text{
   color: #FFF;
@@ -390,9 +392,15 @@ height: 86px;
 flex-shrink: 0;
 }
 
-.footer-line{
-  width: 1110px;
-height: 1px;
+.footer-div{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 
+.footer-box{
+  display: flex;
+  justify-content: space-around;
+}
