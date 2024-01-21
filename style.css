@@ -115,7 +115,7 @@ flex-shrink: 0;
   color: #FFF;
 font-family: PT Serif;
 font-size: 48px;
-
+margin-left: 15px;
 font-weight: 400;
 
 }
@@ -226,6 +226,7 @@ justify-content: space-between;
 
 .reviews-list > .item:nth-child(1) {
   padding: 49px 15px 29px 15px;
+  
   border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
