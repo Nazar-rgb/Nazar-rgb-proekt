@@ -151,7 +151,7 @@ font-size: 24px;
 
 font-weight: 400;
 
-
+cursor: pointer;
   border-radius: 10px;
 background: #8E32C6;
 width: 254px;
@@ -159,6 +159,11 @@ height: 67px;
 flex-shrink: 0;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+  background-color: #FFF;
+  color: #8E32C6;
+}
 
 
 /* <!-- advantages --> */
@@ -358,6 +363,13 @@ flex-shrink: 0;
 margin-bottom: 37px;
 margin-left: auto;
 margin-right: auto;
+cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus{
+  background-color: #FFF;
+  color: #8E32C6;
 }
 
 /* footer */
@@ -420,4 +432,9 @@ margin-top: -20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-links:hover,
+.footer-links:focus{
+  color: darkblue;
 }
