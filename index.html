@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
     <header class="header">
@@ -28,13 +28,31 @@
 <div class="tumbler">
 <a class="timbler-links" href="">Ua Eng</a>
 </div>
+
+<button class="mobile-btn" data-menu-button>
+    <svg class="icon-mobile">
+        <use class="icon-menu" href="./img/symbol-defs.svg#icon-burger"></use>
+    </svg>
+</button>
 </div>
     </header>
     
+<div class="mobile-menu" data-menu>
+<ul class="mobile-list">
+    <li class="item"><a class="mobile-links" href="">Main page</a></li>
+    <li class="item"><a class="mobile-links" href="">Benefits</a></li>
+    <li class="item"><a class="mobile-links" href="">Advantages</a></li>
+    <li class="item"><a class="mobile-links" href="">Reviews</a></li>
+    <li class="item"><a class="mobile-links" href="">Contacts</a></li>
+    <li class="item"><a class="mobile-links" href="">Order</a></li>
+    <li class="item"><a class="mobile-links" href="">Ua Eng</a></li>
+</ul>
+</div>
+
 <main>
     <!-- hero -->
     
-<section class="hero">
+<!-- <section class="hero">
 <div class="container">
 <img class="hero-logo" src="./img/nike.png" alt="logo nike">
 <p class="hero-fonts">C&R</p>
@@ -46,10 +64,13 @@
     Good luck finding your way in the world of custom sneakers.</p>
 <button class="hero-btn" type="button">Buy my Nike</button>
 </div>
-</section>
+</section> -->
 
 <!-- advantages -->
-<section class="advantages">
+
+
+
+<!-- <section class="advantages">
     <div class="container">
 <h2 class="visually-hidden">advantages</h2>
 <ul class="advantages-list">
@@ -72,11 +93,16 @@
 </li>
 </ul>
 </div>
-</section>
+</section> -->
+
+
 
 <!-- Reviews -->
 
-<section class="reviews">
+
+
+
+<!-- <section class="reviews">
     <div class="container">
 <h2 class="reaviews-title">Reviews</h2>
 <ul class="reviews-list">
@@ -121,12 +147,18 @@
 
 </ul>
 </div>
-</section>
+</section> -->
+
+
 
 
 <!-- Order -->
 
-<section class="order">
+
+
+
+
+<!-- <section class="order">
     <div class="container">
 <h2 class="order-title">Order</h2>
 <form class="order-form">
@@ -138,12 +170,15 @@
 </form>
 
 </div>
-</section>
+</section> -->
 
 </main>
 <!-- footer -->
 
-<footer class="footer"> 
+
+
+
+<!-- <footer class="footer"> 
     <div class="container">
         <div class="footer-div">
 <ul class="footer-list">
@@ -172,6 +207,8 @@
 
 
 </div>
-</footer>
+</footer> -->
+
+<script src="./js/mobile-menu.js" type="module"></script>
 </body>
 </html>

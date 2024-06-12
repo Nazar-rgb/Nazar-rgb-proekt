@@ -1,102 +1,12 @@
-:root{
-  --basic-color:#FFF;
-}
+@import './utils/utils';
+@import './components/container';
+@import './components/header';
+@import './components/mobile-menu';
 
 
-body{
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-line-height: normal;
-}
-
-a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  ul,
-  p {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  address {
-    font-style: normal;
-  }
-  
-  .visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0 !important;
-    border: 0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-  }
 
 
-  .container {
-    width: 1140px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* header */
-.header{
-background-color: #012D63;
 
-padding-top: 30px;
-padding-bottom: 33px;
-flex-shrink: 0;
-}
-.header > .container{
-  display:flex;
- align-items:center;
-  justify-content:space-between;
-}
-.header-list{
-  display: flex;
-
-}
-.header-links:hover,
-.header-links:focus{
-  color: #FFF;
-}
-.header-links{
-  color: #C7C7C7;
-  font-size: 24px;
-
-  font-weight: 300;
-
-
-margin-top: 30px;
-margin-bottom: 33px;
-margin-left: 29px;
-margin-right: 29px;
-}
-
-.timbler-links{
-  color: #DCDCDC;
-  font-size: 24px;
-  font-weight: 300;
- 
-
-  width: 81px;
-height: 30px;
-flex-shrink: 0;
-}
-/* hero */
 .hero{
   padding-bottom: 183px;
     padding-top: 91px;
